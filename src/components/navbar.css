@@ -1,0 +1,145 @@
+.navbar {
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-elementos-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo-fiesac {
+    width: 200px;
+    height: auto;
+}
+
+.elementos-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementos-navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.elementos-navbar li .elemento-navegacion{
+    position: relative;
+    font-size: 1.2rem;
+    color: rgb(36, 102, 41);
+    margin-left: 40px;
+}
+
+.elementos-navbar li .elemento-navegacion:hover{
+    color: rgb(74, 202, 29);
+    transition: .3s;
+}
+
+.elementos-navbar li .elemento-navegacion::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(74, 202, 29);
+    transition: .3s;
+    font-weight: bold;
+}
+
+.elementos-navbar li .elemento-navegacion:hover::before{
+    width: 100%;
+}
+
+.mobile{
+    display: none;
+}
+
+.mobile i{
+    color: rgb(36, 102, 41);
+    font-size: 24px;
+}
+
+.boton-contacto {
+    background-color: rgb(36, 102, 41);
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+.boton-contacto:hover {
+    background-color: rgb(74, 202, 29);
+}
+
+
+
+/* Media Queries para Dispositivos Moviles */
+@media (max-width: 769px) {
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 20px; /* Reduce el padding en dispositivos móviles */
+    }
+
+    .elementos-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 69px;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 0.7s ease;
+        width: 100%;
+        height: 100vh;
+        background: #e0e0e0;
+        padding-top: 20px;
+        z-index: 99;
+    }
+
+    .elementos-navbar.active{
+        transform: translateX(0);
+    }
+
+    .elementos-navbar li{
+        margin-bottom: 25px;
+    }
+
+    .elementos-navbar i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .logo-fiesac {
+        width: 150px;
+        height: auto;
+    }
+
+    .boton-contacto {
+        width: 100%;
+        margin-left: 35px;
+        padding: 10px 20px;
+    }
+
+    .mobile{
+        display: block;
+    }
+}

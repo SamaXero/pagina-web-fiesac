@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: book;
+    scrollbar-width: thin;
+    scrollbar-color: #f1f5f8 transparent;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: book;
+    src: url(../public/Book-Antiqua.ttf);
+}

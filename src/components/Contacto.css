@@ -1,0 +1,177 @@
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contenedor-contactame {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-parrafo-contactame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-contactame {
+    color: rgb(36, 102, 41);
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.separacion-horizontal-contacto {
+    width: 30%;
+    /* Ajusta el ancho según sea necesario */
+    height: 3px;
+    /* Ajusta el grosor de la línea */
+    background-color: rgb(36, 102, 41); /* Color de la línea */
+}
+
+.parrafo-contactame {
+    font-size: 1.2em;
+    color: rgb(36, 102, 41);
+}
+
+.contenedor-formulario-contacto{
+    width: 80%;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario-contacto div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-apellido-contacto{
+    display: flex;
+    gap: 20px;
+}
+
+.nombre-contacto, .apellido-contacto{
+    flex: 1;
+}
+
+.formulario-contacto label {
+    margin-bottom: 5px;
+    color: rgb(36, 102, 41);
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.boton-enviar-formulario {
+    padding: 15px 25px;
+    background-color: rgb(36, 102, 41);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    align-self: flex-start;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.boton-enviar-formulario:hover {
+    background-color: rgb(74, 202, 29);
+}
+
+.contenedor-informacion {
+    background-color: #edf6f9;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.titulo-informacion {
+    color: rgb(36, 102, 41);
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.informacion-adicional {
+    color: rgb(36, 102, 41);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacion-adicional {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.informacion-adicional-seccion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacion-adicional-seccion p{
+    font-size: 1.2rem;
+}
+
+.separacion-horizontal-informacion{
+    width: 50%;
+    height: 2px;
+    background-color: rgb(36, 102, 41);
+}
+
+@media (max-width: 769px) {
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-contactame{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-parrafo-contactame{
+        text-align: center;
+    }
+
+    .contenedor-formulario-contacto{
+        width: 100%;
+    }
+
+    .boton-enviar-formulario{
+        width: 100%;
+    }
+
+    .contenedor-informacion{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .separacion-horizontal-informacion{
+        width: 100%;
+    }
+}

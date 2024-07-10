@@ -1,0 +1,74 @@
+.carrusel-principal-contenedor{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e0e0;
+}
+
+.carousel-container {
+  position: relative;
+  align-content: center;
+  padding: 0px 60px;
+  width: 100%; /* Ajusta este valor según sea necesario */
+  height: 50vh;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 0 10px; /* Añade espacio entre los items */
+}
+
+.carousel-imagen {
+  width: 100%; /* Reduce el tamaño de las imágenes */
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto; /* Centra la imagen dentro del item */
+}
+
+/* Personalización de las flechas */
+.slick-arrow {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgb(36, 102, 41) !important;
+  color: white !important;
+  padding: 20px !important; /* Aumenta el padding para hacer los botones más grandes */
+  cursor: pointer !important;
+  z-index: 2 !important;
+  border-radius: 50% !important;
+  font-size: 24px !important; /* Aumenta el tamaño de la fuente */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.slick-prev {
+  left: -50px !important; /* Ajusta el valor para aumentar la separación */
+}
+
+.slick-next {
+  right: -50px !important; /* Ajusta el valor para aumentar la separación */
+}
+
+/* Asegúrate de que el fondo del signo no sea blanco */
+.slick-arrow::before {
+  content: '' !important;
+  background: none !important;
+}
+
+/* Personalización de los puntos */
+.slick-dots li button:before {
+  color: rgb(36, 102, 41);
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(36, 102, 41);
+}
+
+@media (max-width: 769px) {
+  .slick-arrow{
+    font-size: 20px !important;
+    padding: 15px !important;
+  }
+}

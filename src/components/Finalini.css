@@ -1,0 +1,88 @@
+.contenedor-asociado-autorizado {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mediafila {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.column-autorizacion,
+.column-certificacion {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+
+.colum-ccl,
+.column-anemsap {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo-minsa,
+.logo-iso {
+  max-width: 350px;
+  /* Aumentar el tamaño de las imágenes */
+  margin: 5px auto;
+  /* Reducir el margen entre las imágenes */
+}
+
+.logo-ccl,
+.logo-anemsap {
+  max-width: 350px;
+  /* Aumentar el tamaño de las imágenes */
+  margin: 5px auto;
+  /* Reducir el margen entre las imágenes */
+}
+
+.titulo-finalini {
+  color: rgb(36, 102, 41);
+  font-size: 3.8em;
+  /* Añadir margen entre el título y el logo */
+}
+
+
+.fila2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 769px) {
+  .contenedor-asociado-autorizado{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .fila{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .mediafila{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .titulo-finalini{
+    font-size: 3em;
+  }
+}
