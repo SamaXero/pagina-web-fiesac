@@ -7,8 +7,12 @@ import Servicios from './components/Servicios';
 import WhatsappBoton from './components/WhatsappBoton';
 import Footer from './components/Footer';
 import PoliticaCalidad from './components/PoliticaCalidad';
-
+import { useEffect } from 'react';
 function App() {
+
+  useEffect(() => {
+    document.title = 'FIESAC S.A.C.';
+  }, []);
 
   return (
     <>
