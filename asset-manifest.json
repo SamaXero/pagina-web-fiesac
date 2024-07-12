@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9e46db0.css",
-    "main.js": "/static/js/main.b4f18805.js",
+    "main.css": "/static/css/main.3ee99f8d.css",
+    "main.js": "/static/js/main.30d09b1c.js",
     "static/media/Corporacion-FIESAC.mp4": "/static/media/Corporacion-FIESAC.d05ad26c91eea393963c.mp4",
     "static/media/Brochure-Corporacion-Fiesac-2024.pdf": "/static/media/Brochure-Corporacion-Fiesac-2024.5190f3a2b2f3235b2ee7.pdf",
     "static/media/Portada1.png": "/static/media/Portada1.3f76ed66ff3810db2e09.png",
@@ -36,11 +36,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b9e46db0.css.map": "/static/css/main.b9e46db0.css.map",
-    "main.b4f18805.js.map": "/static/js/main.b4f18805.js.map"
+    "main.3ee99f8d.css.map": "/static/css/main.3ee99f8d.css.map",
+    "main.30d09b1c.js.map": "/static/js/main.30d09b1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e46db0.css",
-    "static/js/main.b4f18805.js"
+    "static/css/main.3ee99f8d.css",
+    "static/js/main.30d09b1c.js"
   ]
 }
