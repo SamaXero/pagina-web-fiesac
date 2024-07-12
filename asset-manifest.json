@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ee99f8d.css",
-    "main.js": "/static/js/main.30d09b1c.js",
+    "main.js": "/static/js/main.3fd6a5b9.js",
     "static/media/Corporacion-FIESAC.mp4": "/static/media/Corporacion-FIESAC.d05ad26c91eea393963c.mp4",
     "static/media/Brochure-Corporacion-Fiesac-2024.pdf": "/static/media/Brochure-Corporacion-Fiesac-2024.5190f3a2b2f3235b2ee7.pdf",
     "static/media/Portada1.png": "/static/media/Portada1.3f76ed66ff3810db2e09.png",
@@ -16,11 +16,11 @@
     "static/media/img7.jpg": "/static/media/img7.e18df6adf9f58a8b26b9.jpg",
     "static/media/trampagrasa.jpg": "/static/media/trampagrasa.3f053355e74a109e3233.jpg",
     "static/media/politicacalidad.pdf": "/static/media/politicacalidad.1490a265e5f066f34bb7.pdf",
-    "static/media/pozoseptico.jpg": "/static/media/pozoseptico.0bd11a4b21b3c21ecad1.jpg",
     "static/media/img4.jpg": "/static/media/img4.c609a360b01b8d4f512a.jpg",
     "static/media/pesquero.jpg": "/static/media/pesquero.b7323b15946f22175816.jpg",
     "static/media/img2.jpg": "/static/media/img2.91a76c3847cb4e422368.jpg",
     "static/media/politicacalidad.jpg": "/static/media/politicacalidad.96ccb7c203a3b1e16015.jpg",
+    "static/media/pozoseptico.jpg": "/static/media/pozoseptico.75091bccdb7070bbf135.jpg",
     "static/media/img5.jpg": "/static/media/img5.52777e8a0153d15fc279.jpg",
     "static/media/whatsapp.png": "/static/media/whatsapp.d026940870fb334920b7.png",
     "static/media/limpiezacisterna.jpg": "/static/media/limpiezacisterna.cebd33eb908ec03ba3ab.jpg",
@@ -37,10 +37,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.3ee99f8d.css.map": "/static/css/main.3ee99f8d.css.map",
-    "main.30d09b1c.js.map": "/static/js/main.30d09b1c.js.map"
+    "main.3fd6a5b9.js.map": "/static/js/main.3fd6a5b9.js.map"
   },
   "entrypoints": [
     "static/css/main.3ee99f8d.css",
-    "static/js/main.30d09b1c.js"
+    "static/js/main.3fd6a5b9.js"
   ]
 }
